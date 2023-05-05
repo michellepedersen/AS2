@@ -1,0 +1,128 @@
+  /* Universal box sizing + margins */
+  * {
+    box-sizing:border-box;
+    margin: 0px;
+  }
+  /* Style the header */
+  .header {
+    display: flex;
+    padding: 20px;
+  }
+  /* Style the top navigation bar */
+  .nav {   
+    overflow: hidden;   
+    background-color: black;
+    }
+  /* Styles the row */
+    .row {
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+  }
+  /* Styles the columns */
+  .column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /* Styles the images in the menu */
+  .food {
+    display:contents;
+    margin: 10px;
+    padding: 20px;
+    justify-content:center;
+  }
+  .main .food{
+    height:100px;
+    margin-top: 60px;
+    padding: 20px;
+    justify-content:center;
+  }
+  /* Style the footer */
+  .footer {     
+    text-align: center;   
+    padding: 15px;
+  }
+  /* --Fonts-- 
+  h1 font */
+  h1, h2, h3 {
+    font-family: "arial", times, sans-serif;
+    text-align: center;  
+    margin-left: 10px;
+    color:#483D8B;
+  }
+  /* paragraph font */
+  p {
+    font-family: "arial", times, sans-serif;
+    text-align: center;  
+  }
+    /*  font for nav links */
+  /* Style social media icons */
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  /* hover effect for social media icons */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  /* Set a specific color for each brand */
+
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  /* Linkedin */
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  /* Instagram */
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  /* --Responsive Design-- */
+  /* Responsive font size makes the h1 smaller on a smaller screen */
+  @media screen and (max-width:600px) {
+  h1, h2, h3, p1 {
+    font-size:1.2em;
+  }
+  }
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+    }
+  }
+  /* Responsive layout - viewport is less than 400 pixels wide, font is larger and images full width of the page. */
+  @media only screen and (max-width: 400px) {
+  h1 {
+    font-size:2em;
+    }
+  img {
+    width:100%;
+    }
+  }
+  /* Responsive calendar  */
+  .calender{
+    position:relative;
+    left: 50%;
+    transform: translate(-50%);
+    max-width: 100%;
+  }
+  /* Responsive images */
+  .responsive {
+    width: 100%;
+    height: auto;
+  }
