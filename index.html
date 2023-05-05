@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="En">
+<head>
+    <!--Head of the html webpage which has the information about the webpage-->
+    <meta charset= "utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Restaurant, Haukai, Bay of Islands">
+    <meta name="description" content="Homepage of The Haukai Restaurant">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>The Haukai Restaurant | Maori Kai </title>
+</head>
+<body>
+<!--Header that is used across all pages of the website.  including the logo and the welcome to The Haukai Restaurant in English-->
+<div class="header">
+    <img src="images/TheHaukaiRestaurant5.jpg" alt="The Haukai Restaurant Logo" class="img-responsive">
+</div>
+<!-- W3.CSS Navigation menu that is used across all pages of the website -->
+<div class="w3-bar w3-indigo  w3-card-4 w3-padding-12">
+    <a href="index.html" class="w3-bar-item w3-button">Home</a>
+    <a href="menu.html" class="w3-bar-item w3-button w3-hide-small">Menu</a>
+    <a href="reservations.html" class="w3-bar-item w3-button w3-hide-small">Reservations</a>
+    <a href="contact.html" class="w3-bar-item w3-button w3-hide-small">Contact Us</a>
+    <a href="hours.html" class="w3-bar-item w3-button w3-hide-small">Staff Hours</a>
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="myFunction()">&#9776;</a>
+</div>
+<div id="demo" class="w3-bar-block w3-indigo w3-hide w3-hide-large w3-hide-medium">
+    <a href="menu.html" class="w3-bar-item w3-button w3-padding-12">Menu</a>
+    <a href="reservations.html" class="w3-bar-item w3-button w3-padding-12">Reservations</a>
+    <a href="contact.html" class="w3-bar-item w3-button w3-padding-12">Contact Us</a>
+    <a href="hours.html" class="w3-bar-item w3-button w3-padding-12">Staff Hours</a>
+</div>
+<script>
+    function myFunction() {
+    var x = document.getElementById("demo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else { 
+            x.className = x.className.replace(" w3-show", "");
+        }
+    }
+</script>
+<!-- Page's main content -->
+<div class="main">
+    <h1>Nau mai haere mai ki te whare kai HAUKAI</h1> <!--This is the welcoming message in Maori-->
+    <p><img src="images/people-at-hangi.jpg" alt="people gathering around Hangi" width="640" height="260" class="img-responsive"></p> <!--image of Maori Kai-->
+    <hr>
+    <h2>ABOUT US</h2>
+    <p>The Haukai Restaurant is located in the Bay of Islands. We specilise in Maori Kai. The Haukai Restaurant brings you Maori culture and traditions in everything we do. 
+    Our Haukai team would like to invite you to a true New Zealand experience from the moment you step into the restaurant.  
+    </p>
+</div>
+<hr>
+    <h2>ABOUT THE OWNERS</h2>
+    <p>The owners work in the business full-time. They are keen on creating a business that appeals to locals and tourists visiting the area. 
+    They both come from a Maori background and have lived in the area all their lives. They are welcoming of everyone to their restaurant and enjoy sharing their culture.
+    Come say hi we would love to meet you.</p>
+    <p><img src="images/owner1.JPG" alt="Owner: Ari Tipene" width="200" height="160" class="img-responsive">
+    <img src="images/owner2.JPG" alt="Owner: Aroha Tipene" width="200" height="160" class="img-responsive"></p>
+<hr>
+<div class="footer">
+    <!-- Main footer that is used across all the pages of our website -->
+    <p><a href="images/privacy_statement.pdf" alt="Privacy Statement" target=”_blank”>Privacy Statement</a></p>
+    <p>&copy;Copyright 2023 by MP Ltd. All rights reserved.</p>
+</div>
+</body>
+</html>
