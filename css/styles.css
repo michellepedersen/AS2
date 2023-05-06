@@ -14,7 +14,7 @@
 /* Style the top navigation bar */
 .nav {   
     overflow: hidden;   
-    background-color: black;
+    background-color: #483D8B;
     }
 /* Styles the row */
 .row {
@@ -68,14 +68,6 @@ h3 {
 
 h4 {
     font-size: 18px
-}
-
-h5 {
-    font-size: 16px
-}
-
-h6 {
-    font-size: 14px
 }
 /* Style social media icons */
 .fa {
@@ -132,6 +124,10 @@ h6 {
 }
 /* Responsive images */
   .img-responsive {
-    width: 30%;
+    width: 50%;
     height: auto;
+}
+.responsive {
+  width: 30%;
+  height: auto;
 }
