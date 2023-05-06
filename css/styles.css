@@ -130,7 +130,7 @@ p {
     width: 100%;
     }
 }
-/* Responsive layout - viewport is less than 400 pixels wide, font is larger and images full width of the page. */
+/* Responsive layout - viewport is less than 400 pixels wide, font is larger and images full width of the page. 
 @media only screen and (max-width: 400px) {
 h1 {
     font-size:2em;
@@ -139,7 +139,7 @@ img {
     width:100%;
     max-height: 100%;
     }
-}
+}*/
 /* Responsive calendar  */
   .calender{
     position:relative;
