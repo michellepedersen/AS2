@@ -7,7 +7,6 @@
 .header {
     display: flex;
     padding-top: 20px;
-    justify-content: center;
 }
   /* Style the top navigation bar */
 .nav {   
@@ -44,8 +43,7 @@
     text-align: center;   
     padding: 15px;
 }
-  /* --Fonts-- 
-  h1 font */
+  /* --Fonts-- */
 h1, h2, h3 {
     font-family: "arial", times, sans-serif;
     text-align: center;  
@@ -116,14 +114,14 @@ p {
     background: #125688;
     color: white;
 }
-  /* --Responsive Design-- */
-  /* Responsive font size makes the h1 smaller on a smaller screen */
+/* --Responsive Design-- */
+/* Responsive font size makes the h1 smaller on a smaller screen */
 @media screen and (max-width:600px) {
   h1, h2, h3, p1 {
     font-size:1.2em;
   }
 }
-  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width:600px) {
   .column {
     width: 100%;
