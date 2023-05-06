@@ -51,6 +51,7 @@ h1, h2, h3, p {
     font-family: "arial", times, sans-serif;
     text-align: center;  
     margin-left: 10px;
+    margin-right: 10px;
     color:#483D8B;
 }
 h1 {
