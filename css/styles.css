@@ -6,29 +6,29 @@
 *,*:before,*:after {
     box-sizing: inherit
 }
-  /* Style the header */
+/* Style the header */
 .header {
     display: flex;
     padding-top: 20px;
 }
-  /* Style the top navigation bar */
+/* Style the top navigation bar */
 .nav {   
     overflow: hidden;   
     background-color: black;
     }
-  /* Styles the row */
+/* Styles the row */
 .row {
       flex-direction: row;
       justify-content: center;
       align-items: center;
 }
-  /* Styles the columns */
+/* Styles the columns */
 .column {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-  /* Styles the images in the menu */
+/* Styles the images in the menu */
 .food {
     display:contents;
     margin: 10px;
@@ -41,12 +41,12 @@
     padding: 20px;
     justify-content:center;
   }
-  /* Style the footer */
+/* Style the footer */
 .footer {     
     text-align: center;   
     padding: 15px;
 }
-  /* --Fonts-- */
+/* --Fonts-- */
 h1, h2, h3, p {
     font-family: "arial", times, sans-serif;
     text-align: center;  
@@ -76,8 +76,7 @@ h5 {
 h6 {
     font-size: 14px
 }
-    /*  font for nav links */
-  /* Style social media icons */
+/* Style social media icons */
 .fa {
     padding: 20px;
     font-size: 30px;
@@ -90,8 +89,6 @@ h6 {
 .fa:hover {
     opacity: 0.7;
 }
-  /* Set a specific color for each brand */
-
   /* Facebook */
 .fa-facebook {
     background: #3B5998;
@@ -113,9 +110,9 @@ h6 {
     color: white;
 }
 /* --Responsive Design-- */
-/* Responsive font size makes the h1 smaller on a smaller screen */
+/* Responsive font size makes the h1, h2, h3, p smaller on a smaller screen */
 @media screen and (max-width:600px) {
-  h1, h2, h3, p1 {
+  h1, h2, h3, p {
     font-size:1.2em;
   }
 }
