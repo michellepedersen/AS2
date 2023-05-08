@@ -114,11 +114,15 @@ h4 {
       height: auto;
       }
     }
-    @media screen and (max-width: 400px) {}
-        }
+    @media screen and (max-width: 400px) { 
+      .responsive {
+      width: 100%;
+      height: auto;
       }
+     }
     }
-  }
+   }
+}
 @media screen and (max-width:600px) { /* Responsive font size makes the h1, h2, h3, p smaller on a smaller screen */
   h1, h2, h3, p {
     font-size:1.1em;
