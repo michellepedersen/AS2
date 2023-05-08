@@ -113,9 +113,8 @@ h4 {
 /* Styles the images in the menu */
 .food {
   display:contents;
-  margin: 10px;
-  justify-content:center;    
-  height:100px;
+  margin: 10px; 
+  height:80px;
   padding: 20px;
 }
 /* Responsive images */
