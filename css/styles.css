@@ -6,6 +6,10 @@
 *,*:before,*:after {
     box-sizing: inherit
 }
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
 /* Style the header */
 .header {
     display: flex;
@@ -120,10 +124,11 @@ h4 {
 }
 /* Responsive images */
 .img-responsive {
-    width: 80%;
-    height: auto;
+  width: auto ;
+  max-width: 100% ;
+  height: auto ;
 }
 .responsive {
-  width: 40%;
+  width: 30%;
   height: auto;
 }
