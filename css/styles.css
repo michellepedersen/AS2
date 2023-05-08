@@ -95,6 +95,34 @@ h4 {
   color: white;
 }
 /* --Responsive Design-- */
+/* Extra small devices (phones, 600px and down) */
+@media screen and (max-width: 600px) {
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+      /* Medium devices (landscape tablets, 768px and up) */
+      @media only screen and (min-width: 768px) {
+          /* Large devices (laptops/desktops, 992px and up) */
+          @media only screen and (min-width: 992px) {
+              .img-responsive {
+                  width: 100%;
+                  height: auto;
+                  position: relative;
+              }
+          }
+          /* Extra large devices (large laptops and desktops, 1200px and up) */
+          @media only screen and (min-width: 992px) {
+              @media screen and (max-width: 700px) {
+                .img-responsive {
+                      width: 100%;
+                      height: auto;
+                      position: relative;
+                  }
+              }
+              @media screen and (max-width: 400px) {}
+          }
+      }
+  }
+}
 @media screen and (max-width:600px) { /* Responsive font size makes the h1, h2, h3, p smaller on a smaller screen */
   h1, h2, h3, p {
     font-size:1.1em;
