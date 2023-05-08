@@ -22,12 +22,6 @@
     overflow: hidden;   
     background-color: #483D8B;
     }
-/* Styles the row */
-.row {
-      flex-direction: row;
-      justify-content: center;
-      align-items: center;
-}
 /* Styles the columns */
 .column {
     display: flex;
@@ -105,19 +99,17 @@ h4 {
       @media only screen and (min-width: 768px) {
           /* Large devices (laptops/desktops, 992px and up) */
           @media only screen and (min-width: 992px) {
-              .img-responsive {
+              .responsive {
                   width: 100%;
                   height: auto;
-                  position: relative;
               }
           }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 992px) {
   @media screen and (max-width: 700px) {
-    .img-responsive {
+    .responsive {
       width: 100%;
       height: auto;
-      position: relative;
       }
     }
     @media screen and (max-width: 400px) {}
