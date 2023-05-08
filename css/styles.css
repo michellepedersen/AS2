@@ -103,13 +103,13 @@ h4 {
     width: 100%;
     }
 }     
-/* Responsive calendar  */
+/* Responsive calendar  
   .calender{
     position:relative;
     left: 50%;
     transform: translate(-50%);
     max-width: 100%;
-}
+}*/
 /* Styles the images in the menu */
 .food {
   display:contents;
