@@ -17,16 +17,18 @@
   background-color: #4850c7;
   color:white;
 }
-/* Style the top navigation bar */
-.nav {   
-    overflow: hidden;   
-    background-color: #483D8B;
-    }
 /* Styles the columns */
 .column {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.main{
+  justify-content: center;
+  align-items: center;
+  border: white;
+  margin: 10px;
+  padding: 30px;
 }
 /* Style the footer */
 .footer {     
