@@ -109,20 +109,20 @@ h4 {
                   position: relative;
               }
           }
-          /* Extra large devices (large laptops and desktops, 1200px and up) */
-          @media only screen and (min-width: 992px) {
-              @media screen and (max-width: 700px) {
-                .img-responsive {
-                      width: 100%;
-                      height: auto;
-                      position: relative;
-                  }
-              }
-              @media screen and (max-width: 400px) {}
-          }
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 992px) {
+  @media screen and (max-width: 700px) {
+    .img-responsive {
+      width: 100%;
+      height: auto;
+      position: relative;
       }
+    }
+    @media screen and (max-width: 400px) {}
+        }
+      }
+    }
   }
-}
 @media screen and (max-width:600px) { /* Responsive font size makes the h1, h2, h3, p smaller on a smaller screen */
   h1, h2, h3, p {
     font-size:1.1em;
