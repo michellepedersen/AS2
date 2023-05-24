@@ -64,8 +64,9 @@ p {
   text-align: center; 
 }
 .calendar{    
-  display:flex
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Style social media icons */
