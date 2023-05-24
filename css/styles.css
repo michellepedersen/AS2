@@ -60,8 +60,14 @@ h4 {
     font-size: 1.25em
 }
 p {
-  font-size: 1em
+  font-size: 1em;
+  text-align: center; 
 }
+.calendar{    
+  display:flex;
+  justify-content: center;
+}
+
 /* Style social media icons */
 .fa {
   padding: 20px;
