@@ -63,11 +63,26 @@ p {
   font-size: 1em;
   text-align: center; 
 }
-.calendar{    
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.calendar{
+  position: relative;
+display:flex;
+text-align: center;
+justify-content: center;
 }
+
+.cal{
+height: 600px;
+width: 800px;
+border:solid 1px;
+max-width: 100%; 
+}
+
+.workers{
+  display: flex;
+  text-align: center ;
+  justify-content: center;
+}
+
 
 /* Style social media icons */
 .fa {
