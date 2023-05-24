@@ -1,4 +1,11 @@
 AuthType Basic
+<<<<<<< HEAD
 AuthName "Restricted Area"
 AuthUserFile "C:/Users/Michelle/Desktop/AS3/.htpasswd"
 Require valid-user
+=======
+AuthName "Restricted access "
+AuthUserFile  "C:/Users/Michelle/Desktop/Web_Development/Git/AS2/.htpasswd"
+Require valid-user
+
+>>>>>>> 067093207873f99af5676641ead357d158e86c2c
