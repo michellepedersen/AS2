@@ -36,7 +36,7 @@
     padding: 15px;
 }
 /* --Fonts-- */
-h1, h2, h3, p {
+h1, h2, h3, p, .staff, .calendar {
     font-family: "arial", times, sans-serif;
     text-align: center;  
     margin-left: 10px;
@@ -64,8 +64,8 @@ p {
   text-align: center; 
 }
 .calendar{    
-  display:flex;
-  justify-content: center;
+  display:flex
+
 }
 
 /* Style social media icons */
