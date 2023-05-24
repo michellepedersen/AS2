@@ -1,4 +1,4 @@
 AuthType Basic
-AuthName "Restricted access "
-AuthUserFile  "C:/Users/Michelle/Desktop/Web Development/Git/AS2"
+AuthName "Restricted Area"
+AuthUserFile "C:/Users/Michelle/Desktop/AS2/.htpasswd"
 Require valid-user
