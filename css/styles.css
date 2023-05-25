@@ -63,26 +63,54 @@ p {
   font-size: 1em;
   text-align: center; 
 }
+
 .calendar{
   position: relative;
   display:flex;
   text-align: center;
   justify-content: center;
 }
-
 .cal{
   height: 600px;
   width: 800px;
   border:solid 1px;
   max-width: 100%; 
 }
-
 .workers{
   display: flex;
   text-align: left ;
   justify-content: center;
 }
 
+.map
+{
+  position: relative;
+  display:flex;
+  text-align: center;
+  justify-content: center;
+}
+.location
+{
+  height: 600px;
+  width: 800px;
+  border:solid 1px;
+  max-width: 100%; 
+}
+
+.form
+{
+  position: relative;
+  display:flex;
+  text-align: center;
+  justify-content: center;
+}
+.reservations
+{
+  height: 600px;
+  width: 800px;
+  border:solid 1px;
+  max-width: 100%; 
+}
 
 /* Style social media icons */
 .fa {
